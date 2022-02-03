@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>
+            Pizza Dilivery
+        </title>
+        <style>
+            body{
+                background-image: url("restorant.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            h1{
+                text-size-adjust:45px; 
+                color: white;
+                background-color: rgb(155, 207, 207);
+                text-align: center;
+            }
+            h2{
+                color: blue;
+                background-color: rgb(64, 175, 175); 
+                text-align: center; 
+            }
+            h4{
+                color: rgb(204, 40, 40);
+                background-color: rgb(64, 175, 175); 
+                text-align: center;  
+            }
+            form{
+                color:rgb(10, 15, 80)
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Radhe Karishna Hotel</h1>
+        <h2>Pizzaa Dilivery Form</h2>
+        <form >
+            <div>
+                Name:<input type="text" placeholder="Enter your full name..." name="name">
+            </div>
+            <div>
+                Add: <textarea name="address" id="" placeholder="Enter address" cols="22" rows="4"></textarea>
+            </div>
+            <div>
+                Ph.No <input type="number" placeholder="Enter your number" name="number">
+            </div>
+            <div>
+                E-mali <input type="email" placeholder="Enter your email" name="mail">
+            </div>
+            <div>
+                Enter Area:
+                <select>
+                    <option value="Katargam">Katargam</option>
+                    <option value="Varacha">Varacha</option>
+                    <option value="Dabholi">Dabholi</option>
+                </select>
+            </div>
+            <div>
+                <h4>Vegeterian Pizaa</h4>
+            </div>
+            <div>
+                    <input type="checkbox" value="VP">Vegeterian Normal Piza
+                    <input type="checkbox" name="CP">Cheese Pizza
+                    <input type="checkbox" value="EP">Etalian Pizaa
+            </div>
+            <div>
+                    <h4>Non-Vegeterian Pizaa</h4>
+                </div>
+                <div>
+                        <input type="checkbox" value="SP">Special AM Piza
+                        <input type="checkbox" name="CP">Cheken Pizza
+                </div>
+                <div><button>OrderNow</button></div>
+        </form>
+    </body>
+</html>
